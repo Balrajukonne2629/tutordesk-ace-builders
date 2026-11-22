@@ -1,17 +1,16 @@
 {
     "files.readonlyInclude": {
-        "src/**": true,
-        "scripts/**": true,
-        "next.config.mjs": true,
+        ".env.example": true,
+        "codebenders.app.json": true,
+        "Dockerfile": true,
+        "nexen-env.d.ts": true,
         "package.json": true,
         "postcss.config.js": true,
-        "tailwind.config.ts": true,
-        "tsconfig.json": true,
-        ".env.example": true,
         "prisma/**": true,
-        "nexen-env.d.ts": true,
-        "Dockerfile": true,
-        "codebenders.app.json": true,
-        "README.md": true
+        "README.md": true,
+        "scripts/**": true,
+        "src/**": true,
+        "tailwind.config.ts": true,
+        "tsconfig.json": true
     }
 }
